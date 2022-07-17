@@ -18,6 +18,9 @@ export default function Banner() {
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>
+        <Box>
+          <Image src={BannerImg} alt='banner'/>
+        </Box>
       </Container>
     </section>
   );
