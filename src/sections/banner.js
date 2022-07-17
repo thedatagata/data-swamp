@@ -9,8 +9,8 @@ export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
-        <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
+        <Box id="banner-heading-wrapper" sx={styles.banner.contentBox}>
+          <Heading id="banner-heading" as="h1" variant="heroPrimary">
             Top Quality Digital Products to Explore
           </Heading>
           <Text as="p" variant="heroSecondary">
@@ -18,7 +18,7 @@ export default function Banner() {
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>
-        <Box>
+        <Box id="banner-image" sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt='banner'/>
         </Box>
       </Container>

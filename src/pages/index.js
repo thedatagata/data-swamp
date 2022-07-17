@@ -6,6 +6,7 @@ import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from '../sections/banner';
 import KeyFeature from '../sections/key-feature';
+import ServiceOfferings from  '../sections/service-offering'
 
 
 export default function IndexPage() {
@@ -15,6 +16,7 @@ export default function IndexPage() {
           <SEO title="NextJS Landing Page" />
           <Banner />
           <KeyFeature />
+          <ServiceOfferings />
         </Layout>
     </ThemeProvider>
   );
