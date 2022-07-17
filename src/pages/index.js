@@ -7,6 +7,7 @@ import Layout from 'components/layout';
 import Banner from '../sections/banner';
 import KeyFeature from '../sections/key-feature';
 import ServiceOfferings from  '../sections/service-offering'
+import Feature from '../sections/feature'
 
 
 export default function IndexPage() {
@@ -17,6 +18,7 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <ServiceOfferings />
+          <Feature />
         </Layout>
     </ThemeProvider>
   );
