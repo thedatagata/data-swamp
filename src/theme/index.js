@@ -105,11 +105,11 @@ export default {
     },
     services: {
       pb: ['90px', null, 9, null, null, 10, null, '150px'],
-    },
-    pricing: {
-      pt: [8, null, 9, null, null, 10, null, '180px'],
-      pb: ['90px', null, 9, null, null, 10, null, '180px'],
-    },
+    }, 
+    teamPage: {
+      pt: [8, null, 9, null, null, 10],
+      pb: ['90px', null, 9, null, null, 10, null, '170px'],
+    }
   },
   sectionHeader: {
     width: ['100%', null, '540px'],
